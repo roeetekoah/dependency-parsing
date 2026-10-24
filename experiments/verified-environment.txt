@@ -1,0 +1,13 @@
+# Local verification environment, not the historical coursework environment.
+# Python 3.13.13 on Windows; recorded 2026-10-11.
+# Core uses stdlib only. Optional environment versions inspected/tested locally:
+nltk==3.9.4
+numpy==2.4.4
+torch==2.11.0
+transformers==5.6.2
+scikit-learn==1.8.0
+pytest==9.0.3
+setuptools==81.0.0
+wheel==0.47.0
+# Installed PyTorch build was 2.11.0+cu126; experiments use CPU.
+# This is a version snapshot, not a fully resolved portable lockfile.

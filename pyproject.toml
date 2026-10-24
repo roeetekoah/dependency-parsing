@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dependency-parsing-portfolio"
+version = "0.1.0"
+description = "Structured prediction with perceptron/MST parsing and frozen-attention probes"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{name = "Roee Tekoah"}, {name = "Yona Gan"}]
+license-files = ["RIGHTS.md"]
+dependencies = []
+
+[project.optional-dependencies]
+corpus = ["nltk>=3.9,<4"]
+attention = ["numpy>=2,<3", "torch>=2.6,<3", "transformers>=4.50,<6", "scikit-learn>=1.6,<2"]
+test = ["pytest>=8,<10", "numpy>=2,<3"]
+
+[project.scripts]
+dependency-parsing = "dependency_parsing.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

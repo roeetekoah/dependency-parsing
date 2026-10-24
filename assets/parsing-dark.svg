@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="264" viewBox="0 0 600 264" role="img" aria-labelledby="title desc">
+<title id="title">Dependency parsing: scores become structure</title>
+<desc id="desc">Conceptual illustration. Reveal is the head of models, labeled subject, and structure, labeled object. This is not parser output.</desc>
+<rect width="600" height="264" rx="16" fill="#102a24"/>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#75ceb0"/></marker></defs>
+<text x="30" y="35" fill="#9bb7ab" font-family="Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="2">SCORES BECOME STRUCTURE</text>
+<path d="M285 177 C285 66 106 66 106 177" fill="none" stroke="#75ceb0" stroke-width="3.5" marker-end="url(#arrow)"/>
+<path d="M285 177 C285 105 488 105 488 177" fill="none" stroke="#75ceb0" stroke-width="3.5" marker-end="url(#arrow)"/>
+<text x="196" y="79" fill="#e5f1eb" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">subject</text>
+<text x="387" y="109" fill="#e5f1eb" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">object</text>
+<text x="106" y="215" fill="#e5f1eb" font-family="Arial, sans-serif" font-size="32" text-anchor="middle">models</text>
+<text x="285" y="215" fill="#e5f1eb" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="middle">reveal</text>
+<text x="488" y="215" fill="#e5f1eb" font-family="Arial, sans-serif" font-size="32" text-anchor="middle">structure</text>
+<text x="30" y="246" fill="#9bb7ab" font-family="Arial, sans-serif" font-size="13">CONCEPTUAL DEPENDENCY TREE</text>
+</svg>

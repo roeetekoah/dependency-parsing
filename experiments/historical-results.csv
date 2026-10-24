@@ -1,0 +1,25 @@
+experiment,macro_uas,sample_std,seed,decoder,evidence,note
+perceptron_both,0.4050,,0,historical_corrected,results.txt,
+attention_mean_L0,0.2376,,,historical_corrected,results.txt,
+attention_mean_L5,0.1856,,,historical_corrected,results.txt,
+attention_mean_L11,0.1304,,,historical_corrected,results.txt,
+perceptron_both,0.2127,,0,supplied_buggy,results.txt,perceptron is retrained with supplied decoder
+attention_mean_L0,0.2298,,,supplied_buggy,results.txt,
+attention_mean_L5,0.1399,,,supplied_buggy,results.txt,
+attention_mean_L11,0.1246,,,supplied_buggy,results.txt,
+perceptron_five_seed_mean,0.4015,0.0049,0;1;2;3;4,historical_corrected,report:tab:robust,min 0.3936; max 0.4062; per-seed table rounded separately
+perceptron_seed_rounded,0.405,,0,historical_corrected,report:tab:robust,rounded report table; do not derive original mean/SD from these values
+perceptron_seed_rounded,0.394,,1,historical_corrected,report:tab:robust,rounded report table; do not derive original mean/SD from these values
+perceptron_seed_rounded,0.406,,2,historical_corrected,report:tab:robust,rounded report table; do not derive original mean/SD from these values
+perceptron_seed_rounded,0.401,,3,historical_corrected,report:tab:robust,rounded report table; do not derive original mean/SD from these values
+perceptron_seed_rounded,0.402,,4,historical_corrected,report:tab:robust,rounded report table; do not derive original mean/SD from these values
+head_L3_H5_train_selected,0.278,,,historical_corrected,report_only,first 250 training sentences; report says same head wins test oracle
+mean_all_144_heads,0.197,,,historical_corrected,report_only,training-free
+max_all_144_heads,0.206,,,historical_corrected,report_only,training-free
+learned_linear_combiner,0.601,,,historical_corrected,report_only,first 300 training sentences; no raw run log recovered
+perceptron_POS_only,0.264,,,historical_corrected,report_only,no retained dedicated ablation runner
+perceptron_word_only,0.318,,,historical_corrected,report_only,no retained dedicated ablation runner
+random_head_baseline,0.057,,,historical_corrected,report_only,procedure/tree validity not fully specified
+all_ROOT_baseline,0.053,,,historical_corrected,report_only,multi-root allowed
+left_neighbor_baseline,0.185,,,historical_corrected,report_only,exact boundary handling not recovered
+right_neighbor_baseline,0.277,,,historical_corrected,report_only,exact boundary handling not recovered

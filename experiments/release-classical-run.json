@@ -1,0 +1,284 @@
+{
+  "status": "new release run; not a recovered historical environment",
+  "configuration": {
+    "test_fraction": 0.1,
+    "metric": "sentence_macro_uas",
+    "punctuation": "included",
+    "decoder": "release_deterministic",
+    "root": "node_0_multiple_children_allowed",
+    "kind": "classical",
+    "epochs": 2,
+    "learning_rate": 1.0,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "config_sha256": "d53bce2a1bb6708d046ce74ef4281222ccea764efc6e7fe0099c7775e4e6add7",
+  "corpus_sha256": "ebc2bee0967498f256c2bdc90741dc7505e7ba7863ade42b0ae0a9e274bc3802",
+  "train_sentences": 3522,
+  "test_sentences": 392,
+  "results": {
+    "runs": [
+      {
+        "seed": 0,
+        "macro_uas": 0.41265482867317504,
+        "micro_uas": 0.37003924989097253,
+        "sentences": 392,
+        "tokens": 9172,
+        "diagnostics": {
+          "distance_1": {
+            "correct": 1521,
+            "tokens": 4192,
+            "micro_uas": 0.36283396946564883
+          },
+          "distance_2_5": {
+            "correct": 1030,
+            "tokens": 3425,
+            "micro_uas": 0.3007299270072993
+          },
+          "distance_6_plus": {
+            "correct": 537,
+            "tokens": 1163,
+            "micro_uas": 0.46173688736027513
+          },
+          "length_11_20": {
+            "correct": 983,
+            "tokens": 1984,
+            "micro_uas": 0.4954637096774194
+          },
+          "length_1_10": {
+            "correct": 159,
+            "tokens": 251,
+            "micro_uas": 0.6334661354581673
+          },
+          "length_21_plus": {
+            "correct": 2252,
+            "tokens": 6937,
+            "micro_uas": 0.3246360098025083
+          },
+          "non_root": {
+            "correct": 3088,
+            "tokens": 8780,
+            "micro_uas": 0.35170842824601367
+          },
+          "root": {
+            "correct": 306,
+            "tokens": 392,
+            "micro_uas": 0.7806122448979592
+          }
+        }
+      },
+      {
+        "seed": 1,
+        "macro_uas": 0.40871333969884166,
+        "micro_uas": 0.3644788486698648,
+        "sentences": 392,
+        "tokens": 9172,
+        "diagnostics": {
+          "distance_1": {
+            "correct": 1534,
+            "tokens": 4192,
+            "micro_uas": 0.36593511450381677
+          },
+          "distance_2_5": {
+            "correct": 993,
+            "tokens": 3425,
+            "micro_uas": 0.28992700729927007
+          },
+          "distance_6_plus": {
+            "correct": 518,
+            "tokens": 1163,
+            "micro_uas": 0.4453998280309544
+          },
+          "length_11_20": {
+            "correct": 984,
+            "tokens": 1984,
+            "micro_uas": 0.4959677419354839
+          },
+          "length_1_10": {
+            "correct": 161,
+            "tokens": 251,
+            "micro_uas": 0.6414342629482072
+          },
+          "length_21_plus": {
+            "correct": 2198,
+            "tokens": 6937,
+            "micro_uas": 0.3168516649848638
+          },
+          "non_root": {
+            "correct": 3045,
+            "tokens": 8780,
+            "micro_uas": 0.3468109339407745
+          },
+          "root": {
+            "correct": 298,
+            "tokens": 392,
+            "micro_uas": 0.7602040816326531
+          }
+        }
+      },
+      {
+        "seed": 2,
+        "macro_uas": 0.4081583509230574,
+        "micro_uas": 0.3651330135194069,
+        "sentences": 392,
+        "tokens": 9172,
+        "diagnostics": {
+          "distance_1": {
+            "correct": 1534,
+            "tokens": 4192,
+            "micro_uas": 0.36593511450381677
+          },
+          "distance_2_5": {
+            "correct": 1010,
+            "tokens": 3425,
+            "micro_uas": 0.2948905109489051
+          },
+          "distance_6_plus": {
+            "correct": 506,
+            "tokens": 1163,
+            "micro_uas": 0.4350816852966466
+          },
+          "length_11_20": {
+            "correct": 969,
+            "tokens": 1984,
+            "micro_uas": 0.4884072580645161
+          },
+          "length_1_10": {
+            "correct": 160,
+            "tokens": 251,
+            "micro_uas": 0.6374501992031872
+          },
+          "length_21_plus": {
+            "correct": 2220,
+            "tokens": 6937,
+            "micro_uas": 0.3200230647253856
+          },
+          "non_root": {
+            "correct": 3050,
+            "tokens": 8780,
+            "micro_uas": 0.34738041002277903
+          },
+          "root": {
+            "correct": 299,
+            "tokens": 392,
+            "micro_uas": 0.7627551020408163
+          }
+        }
+      },
+      {
+        "seed": 3,
+        "macro_uas": 0.41414041427019566,
+        "micro_uas": 0.370911469690362,
+        "sentences": 392,
+        "tokens": 9172,
+        "diagnostics": {
+          "distance_1": {
+            "correct": 1562,
+            "tokens": 4192,
+            "micro_uas": 0.3726145038167939
+          },
+          "distance_2_5": {
+            "correct": 995,
+            "tokens": 3425,
+            "micro_uas": 0.2905109489051095
+          },
+          "distance_6_plus": {
+            "correct": 542,
+            "tokens": 1163,
+            "micro_uas": 0.4660361134995701
+          },
+          "length_11_20": {
+            "correct": 975,
+            "tokens": 1984,
+            "micro_uas": 0.49143145161290325
+          },
+          "length_1_10": {
+            "correct": 161,
+            "tokens": 251,
+            "micro_uas": 0.6414342629482072
+          },
+          "length_21_plus": {
+            "correct": 2266,
+            "tokens": 6937,
+            "micro_uas": 0.32665417327374946
+          },
+          "non_root": {
+            "correct": 3099,
+            "tokens": 8780,
+            "micro_uas": 0.3529612756264237
+          },
+          "root": {
+            "correct": 303,
+            "tokens": 392,
+            "micro_uas": 0.7729591836734694
+          }
+        }
+      },
+      {
+        "seed": 4,
+        "macro_uas": 0.4105754289906915,
+        "micro_uas": 0.36687745311818576,
+        "sentences": 392,
+        "tokens": 9172,
+        "diagnostics": {
+          "distance_1": {
+            "correct": 1541,
+            "tokens": 4192,
+            "micro_uas": 0.3676049618320611
+          },
+          "distance_2_5": {
+            "correct": 998,
+            "tokens": 3425,
+            "micro_uas": 0.2913868613138686
+          },
+          "distance_6_plus": {
+            "correct": 521,
+            "tokens": 1163,
+            "micro_uas": 0.4479793637145314
+          },
+          "length_11_20": {
+            "correct": 986,
+            "tokens": 1984,
+            "micro_uas": 0.4969758064516129
+          },
+          "length_1_10": {
+            "correct": 157,
+            "tokens": 251,
+            "micro_uas": 0.6254980079681275
+          },
+          "length_21_plus": {
+            "correct": 2222,
+            "tokens": 6937,
+            "micro_uas": 0.3203113737927058
+          },
+          "non_root": {
+            "correct": 3060,
+            "tokens": 8780,
+            "micro_uas": 0.34851936218678814
+          },
+          "root": {
+            "correct": 305,
+            "tokens": 392,
+            "micro_uas": 0.7780612244897959
+          }
+        }
+      }
+    ],
+    "mean_macro_uas": 0.4108484725111922,
+    "sample_std": 0.002548033662356933
+  },
+  "elapsed_seconds": 128.7785378999979,
+  "python": "3.13.13",
+  "dependencies": {
+    "nltk": "3.9.4",
+    "numpy": "2.4.4",
+    "torch": "2.11.0+cu126",
+    "transformers": "5.6.2",
+    "scikit-learn": "1.8.0"
+  }
+}

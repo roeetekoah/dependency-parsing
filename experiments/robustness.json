@@ -1,0 +1,17 @@
+{
+  "test_fraction": 0.1,
+  "metric": "sentence_macro_uas",
+  "punctuation": "included",
+  "decoder": "release_deterministic",
+  "root": "node_0_multiple_children_allowed",
+  "kind": "classical",
+  "epochs": 2,
+  "learning_rate": 1.0,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ]
+}

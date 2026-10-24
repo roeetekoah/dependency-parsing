@@ -1,0 +1,16 @@
+{
+  "test_fraction": 0.1,
+  "metric": "sentence_macro_uas",
+  "punctuation": "included",
+  "decoder": "release_deterministic",
+  "root": "node_0_multiple_children_allowed",
+  "model": "google-bert/bert-base-uncased",
+  "revision": "b84905490c2d4796d85a42590c88a95af94cd5e2",
+  "attention_direction": "head_to_dependent",
+  "subword_pooling": "mean_both_axes",
+  "root_proxy": "CLS_row",
+  "device": "cpu",
+  "attention_backend": "eager",
+  "kind": "head-sweep",
+  "train_subset": 250
+}
